@@ -8,7 +8,7 @@ while [ "$#" -gt 0 ]; do
     case "$1" in
         -c)
 	    cTemp="$2"
-            if [ $cTemp > 0 ]; then
+            if [ $cTemp -gt 0 ]; then
                 c=$cTemp
             fi
 	    ;;
